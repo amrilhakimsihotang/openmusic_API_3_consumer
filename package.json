@@ -1,0 +1,26 @@
+{
+  "name": "openmusic_api_3_consumer",
+  "version": "1.0.0",
+  "description": "openMusic queue Consumer",
+  "main": "index.js",
+  "scripts": {
+    "start-dev-consumer":"node ./src_consumer/consumer.js"
+  },
+  "keywords": [
+    "queue",
+    "consumer"
+  ],
+  "author": "Amril Hakim Sihotang,S.Kom",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "dotenv": "^10.0.0",
+    "nodemailer": "^6.6.3",
+    "pg": "^8.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
